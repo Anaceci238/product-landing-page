@@ -1,10 +1,75 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <title>Mi producto</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Club de Ajedrez Anatoly Karpov</title>
+    <link rel="icon" type="image/svg+xml" href="./img/torre.svg"/>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Cursos</a>
+        <a href="#">Contacto</a>
+      </nav>
+    </header>
+    <main>
+      <section id="hero">
+        <h1>Club de Ajedrez Anatoly Karpov</h1>
+        <p>
+          En Club de Ajedrez Anatoly Karpov aprenderás ajedrez de forma
+          práctica, dinámica y progresiva, desde nivel básico hasta avanzado.
+          Nuestros cursos online están diseñados para niños, jóvenes y adultos
+          que desean desarrollar pensamiento estratégico, concentración, memoria
+          y toma de decisiones mientras disfrutan del apasionante mundo del
+          ajedrez.
+        </p>
+        <img
+          src="img/hero.jpeg"
+          alt="Mockup del producto sobre un escritorio minimalista"
+        />
+      </section>
+      <section>
+        <h2>Características</h2>
+        <ul>
+          <li>♟️ Clases dinámicas y progresivas</li>
+          <li>🧠 Desarrollo de habilidades mentales</li>
+          <li>💻 Modalidad 100% online y flexible</li>
+        </ul>
+      </section>
+    </main>
+    <section id="contacto">
+      <h2>Contáctanos</h2>
+      <form>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" />
 
-</body>
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" />
+
+        <label for="mensaje">Mensaje</label>
+        <textarea
+          id="mensaje"
+          placeholder="Escribe aqui un mensaje..."
+        ></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+    <footer>
+      <p>Contacto: clubnatolykarpov@gmail.com</p>
+      <a href="#" aria-label="Síguenos en Facebook">
+        <img src="img/facebook.svg" alt="" width="32" height="32" />
+      </a>
+      <a href="#" aria-label="Síguenos en Instagram">
+        <img src="img/instagram.svg" alt="" width="32" height="32" />
+      </a>
+      <a href="#" aria-label="Síguenos en LinkedIn">
+        <img src="img/linkedin.svg" alt="" width="32" height="32" />
+      </a>
+      <a href="#" aria-label="Síguenos en Tiktok">
+        <img src="img/tiktok.svg" alt="" width="32" height="32" />
+      </a>
+    </footer>
+  </body>
 </html>
