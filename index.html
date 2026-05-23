@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <title>Club de Ajedrez Anatoly Karpov</title>
-    <link rel="icon" type="image/svg+xml" href="./img/torre.svg"/>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header>
       <nav>
+        <a href="#" class="logo">Karpov</a>
         <a href="#">Inicio</a>
         <a href="#">Cursos</a>
         <a href="#">Contacto</a>
@@ -15,7 +16,7 @@
     </header>
     <main>
       <section id="hero">
-        <h1>Club de Ajedrez Anatoly Karpov</h1>
+        <div><h1>Club de Ajedrez Anatoly Karpov</h1>
         <p>
           En Club de Ajedrez Anatoly Karpov aprenderás ajedrez de forma
           práctica, dinámica y progresiva, desde nivel básico hasta avanzado.
@@ -23,19 +24,41 @@
           que desean desarrollar pensamiento estratégico, concentración, memoria
           y toma de decisiones mientras disfrutan del apasionante mundo del
           ajedrez.
-        </p>
+        </p></div>
+        
         <img
-          src="img/hero.jpeg"
+          src="img/hero.png"
           alt="Mockup del producto sobre un escritorio minimalista"
         />
       </section>
-      <section>
+      <section id="caracteristicas">
         <h2>Características</h2>
-        <ul>
-          <li>♟️ Clases dinámicas y progresivas</li>
-          <li>🧠 Desarrollo de habilidades mentales</li>
-          <li>💻 Modalidad 100% online y flexible</li>
-        </ul>
+        <div class="cards">
+          <article class="card">
+            <img src="img/link1.svg" alt="" width="48" height="48" />
+            <h3>Modalidad</h3>
+            <p>Clases virtuales dinámicas y progresivas</p>
+          </article>
+          <article class="card">
+            <img src="img/link2.svg" alt="" width="48" height="48" />
+            <h3>Beneficios</h3>
+            <p>Desarrollo de habilidades mentales</p>
+          </article>
+          <article class="card">
+            <img src="img/link3.svg" alt="" width="48" height="48" />
+            <h3>Contenido</h3>
+            <p>Entrenamiento en aperturas, táctica, medio juego y finales.</p>
+          </article>
+        </div>
+      </section>
+      <section id="galeria">
+        <h2>Galería</h2>
+        <div class="galeria">
+          <img src="img/image1.png" alt="Vista 1 del producto" />
+          <img src="img/image2.png" alt="Vista 2 del producto" />
+          <img src="img/image3.png" alt="Vista 3 del producto" />
+         
+        </div>
       </section>
     </main>
     <section id="contacto">
